@@ -1,0 +1,16 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
