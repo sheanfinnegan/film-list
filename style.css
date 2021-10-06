@@ -3,6 +3,14 @@ html {
 
 }
 
+.preloader {
+    background: #F0F0F0 url('https://createwebsite.net/wp-content/uploads/2015/09/Spinnner.gif') no-repeat center center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+}
+
 body {
     font-family: 'Poppins';
     margin: 0;

@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    $(window).on('load', function () {
+        setTimeout(function () {
+            $('.preloader').fadeOut(700)
+
+        }, 800)
+
+        setTimeout(function () {
+            $('#home h2').addClass('munculshean')
+            $('.pkanan').addClass('muncultext');
+            $('.pkiri').addClass('muncultext');
+        }, 1300)
+    });
 
     function muncul() {
         $.getJSON("./data/intheater.json", function (data) {
