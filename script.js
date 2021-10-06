@@ -25,6 +25,7 @@ $(document).ready(function () {
         let allFilm = $(this).html()
         $('#title-genre').html(allFilm)
         $('#listmovies').children().remove();
+        $('#navbarDropdown').html('Genre')
         muncul()
     })
 
