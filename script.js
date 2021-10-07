@@ -24,7 +24,6 @@ $('#allFilm').on('click', function () {
 })
 
 $('#btn').on('click', function (e) {
-    e.preventDefault()
     let title = $('#cariFilm').val()
     $.getJSON("./data/intheater.json", function (data) {
         let content = ''
